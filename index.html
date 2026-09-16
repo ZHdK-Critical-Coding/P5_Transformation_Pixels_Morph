@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Image Morph (feature points)</title>
+  <!-- p5.js from CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.9.4/lib/p5.min.js"></script>
+  <style>
+    /* margin:0 so the absolutely-positioned slider/buttons (placed with p5's
+       .position() in canvas coordinates) line up under the canvas. */
+    body { margin: 0; background: #111; }
+    canvas { image-rendering: pixelated; } /* keep bitmaps crisp */
+  </style>
+</head>
+<body>
+  <!-- morph.js must load before sketch.js (sketch.js uses Morph / createGrid) -->
+  <script src="morph.js"></script>
+  <script src="sketch.js"></script>
+</body>
+</html>
