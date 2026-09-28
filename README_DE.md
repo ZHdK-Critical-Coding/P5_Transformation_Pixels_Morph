@@ -17,12 +17,14 @@ Voraussetzungen: ein Browser und eine Internetverbindung (p5.js wird von
 einem CDN geladen). Der Sketch liest Bildpixel aus, was nur über HTTP
 funktioniert – `index.html` direkt über `file://` zu öffnen geht nicht.
 
+Bibliotheken: p5.js 1.9.4 (von jsDelivr, eingebunden in `index.html`).
+
+## Ausführen
+
 1. Den Ordner in Visual Studio Code öffnen und Live Server starten (in der
    Statusleiste auf **Go Live** klicken). Jeder andere statische Server geht
    auch, z. B. `python3 -m http.server` und dann `http://localhost:8000`.
 2. Den Schieberegler unter dem Bild bewegen.
-
-Bibliotheken: p5.js 1.9.4 (von jsDelivr, eingebunden in `index.html`).
 
 ## Coding-Hilfe
 
